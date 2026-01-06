@@ -1,5 +1,5 @@
 # Typy danych w Pythonie
-# 1. Liczby calkowite - (eng. Intigers) - int
+# 1. Liczby calkowite - (eng. intiger) - 'int'
 # - moga byc wartosci od okolo -4294967296 do okolo 4294967296
 # - tworzy sie je bez uzycia przecinka
 # - mozna je dodawac, odejmowac, dzielic, mnozyc, potegowac, itd.
