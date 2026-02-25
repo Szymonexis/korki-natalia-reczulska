@@ -11,6 +11,8 @@ Uzyj jednego wywolania funkcji print i przekaz nazwy dni tygodnia jako osobne ar
 Twoje rozwiazanie:
 """
 
+print("poniedziałek", "wtorek", "sroda", "czwartek", "piatek", sep=" -> ", end="!\n")
+
 
 """
 ========================================
@@ -32,6 +34,23 @@ Do tego zadania mozesz uzyc dowolnej liczby wywolan funkcji print.
 Twoje rozwiazanie:
 """
 
+imie = "Natalia"
+nazwisko = "Reczulska"
+kolor = "niebieski"
+liczba = "7"
+
+zdanie = (
+    "Nazywam sie "
+    + imie
+    + " "
+    + nazwisko
+    + ", moj ulubiony kolor to "
+    + kolor
+    + ", a ulubiona liczba to "
+    + liczba
+    + "."
+)
+print(zdanie)
 
 """
 ========================================
@@ -46,6 +65,12 @@ Czesc [imie]! Twoje ulubione miasto to [miasto].
 
 Twoje rozwiazanie:
 """
+
+imie = input("Podaj swoje imie:\n")
+miasto = input("Podaj swoje ulubione miasto:\n")
+
+zdanie = "Czesc " + imie + "! Twoje ulubione miast to " + miasto + "."
+print(zdanie)
 
 
 """
@@ -65,3 +90,8 @@ Uzyj parametru sep funkcji print.
 
 Twoje rozwiazanie:
 """
+
+print("Imie", "Wiek", "Miasto", sep="\t|\t")
+print("Anna", "25", "Warszawa", sep="\t|\t")
+print("Bartek", "30", "Krakow", sep="\t|\t")
+print("Celina", "22", "Gdansk", sep="\t|\t")

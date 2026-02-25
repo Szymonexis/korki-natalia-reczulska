@@ -211,4 +211,4 @@ print(tekst_z_cudzyslowiem_w_srodku)
 print(tekst_z_apostrofem_w_srodku)
 print(tekst_z_mieszanka_cudzyslowia_i_apostrofu)
 
-# TODO: Temat bedzie kontynuowany na przyszlych zajeciach
+# Kontynuacja w 2026.02.25.py
