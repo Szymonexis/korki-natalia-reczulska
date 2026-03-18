@@ -1,4 +1,32 @@
-# Powtozenie nazjwazniejszych rzeczy
+# Powtozenie najwazniejszych rzeczy
+
+"""
+0. Typy danych w pythonie
+
+- int - wartosci calkowite
+- float - wartosci zmiennoprzecinkowe (w systemie dwojkowym) - 
+    w systemie dziesietnym to sa liczby w formacie x.z * 10 ^ y 
+    (notacja naukowa, zapis naukowy)
+- complex (nie musisz tego znac)
+- str - wartosci tekstowe
+- bool - wartosc True oraz False
+
+Wazne do zapamietania:
+
+Kazdy typ posiada konstruktor (czyi specjalna funkcje) 
+za pomoca ktorej mozna zamieniac wattosci jednego typu na drugi
+
+str(5)      -> zwroci tekst o wartosci "5"
+int("5")    -> zwroci wartosc calkowita 5
+int(3.0)    -> zwroci wartosc calkowita 3
+float(5)    -> zwroci wartosc zmiennoprzecinkowa 5.0
+bool("")    -> zwroc False (tylko dla pustego tesktu)
+bool(" ")   -> zwroci True (dla niepustego tekstu)
+bool(0)     -> zwroci False (tylko dla 0, 0.0)
+bool(10)    -> zwroci True (dla kazdej niezerowej wartosci 1, 10.3, -17.09)
+
+itd...
+"""
 
 """
 1. Komentarze
@@ -129,7 +157,7 @@ TODO:
 10. Metody (funkcje)
 
 Do tego jeszcze nie doszlismy - tzn. doszlismy do konceptu funkcji, 
-ale nie dotknelismy czesci tematu w ktorej mowa jak sie je tworzy 
+ale nie dotknelismy czesci tematu w ktorej mowa jak sie je tworzy
 """
 
 
