@@ -119,16 +119,16 @@ Przyklady:
 """
 
 # zmienna value przechowuje teraz wartosc "Some text"
-value = "Some text"
+# value = "Some text"
 # uzywamy zmiennej value aby przekazac wartosc "Some text" do funkcji print()
-print(value)
+# print(value)
 
 """
 TODO:
 
 10. Metody (funkcje)
 
-Do tego jeszcze nie doszlismy - tzn. doszlismy do konceptu funckji, 
+Do tego jeszcze nie doszlismy - tzn. doszlismy do konceptu funkcji, 
 ale nie dotknelismy czesci tematu w ktorej mowa jak sie je tworzy 
 """
 
